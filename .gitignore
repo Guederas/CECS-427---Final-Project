@@ -1,0 +1,117 @@
+# ============================================================
+# Python
+# ============================================================
+
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python tooling / test caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Packaging / build output
+build/
+dist/
+*.egg-info/
+.eggs/
+
+
+# ============================================================
+# IDE / Editor Files
+# ============================================================
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains / PyCharm
+.idea/
+
+# Visual Studio
+.vs/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+\#*\#
+.\#*
+
+
+# ============================================================
+# Operating System Files
+# ============================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
+.nfs*
+
+
+# ============================================================
+# Temporary / Log Files
+# ============================================================
+
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+
+tmp/
+temp/
+
+
+# ============================================================
+# Environment / Local Configuration
+# ============================================================
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration files
+*.local
+
+
+# ============================================================
+# Jupyter Notebook
+# ============================================================
+
+.ipynb_checkpoints/
+
+
+# ============================================================
+# Project-generated output
+# ============================================================
+
+# Uncomment/add these if your project generates local output
+# output/
+# results/
+# data/generated/
