@@ -29,6 +29,14 @@ dist/
 
 
 # ============================================================
+# Javascript
+# ============================================================
+
+node_modules/
+dist/
+
+
+# ============================================================
 # IDE / Editor Files
 # ============================================================
 
@@ -111,7 +119,15 @@ temp/
 # Project-generated output
 # ============================================================
 
+# Generated experiment output
+results/*.csv
+results/*.json
+results/*.png
+
+# Keep the results directory itself
+!results/.gitkeep
+
+
 # Uncomment/add these if your project generates local output
 # output/
-# results/
 # data/generated/

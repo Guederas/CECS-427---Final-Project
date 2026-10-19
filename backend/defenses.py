@@ -1,0 +1,1 @@
+# Implements defensive strategies including random patching, targeted patching, quarantine, and cleanup.
